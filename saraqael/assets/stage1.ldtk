@@ -593,7 +593,7 @@
 					"max": null,
 					"regex": null,
 					"acceptFileTypes": null,
-					"defaultOverride": { "id": "V_Int", "params": [15] },
+					"defaultOverride": { "id": "V_Int", "params": [45] },
 					"textLanguageMode": null,
 					"symmetricalRef": false,
 					"autoChainRef": true,
@@ -1352,7 +1352,7 @@
 									"id": "V_String",
 									"params": ["ases/shield-chicken.ase"]
 								}] },
-								{ "__identifier": "health", "__type": "Int", "__value": 15, "__tile": null, "defUid": 174, "realEditorValues": [] },
+								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "pre_attack", "__type": "Float", "__value": 0.1, "__tile": null, "defUid": 226, "realEditorValues": [] },
 								{ "__identifier": "post_attack", "__type": "Float", "__value": 0.5, "__tile": null, "defUid": 203, "realEditorValues": [] },
@@ -1429,7 +1429,7 @@
 									"id": "V_String",
 									"params": ["ases/shield-chicken.ase"]
 								}] },
-								{ "__identifier": "health", "__type": "Int", "__value": 15, "__tile": null, "defUid": 174, "realEditorValues": [] },
+								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "pre_attack", "__type": "Float", "__value": 0.1, "__tile": null, "defUid": 226, "realEditorValues": [] },
 								{ "__identifier": "post_attack", "__type": "Float", "__value": 0.5, "__tile": null, "defUid": 203, "realEditorValues": [] },
@@ -1459,7 +1459,7 @@
 									"id": "V_String",
 									"params": ["ases/shield-chicken.ase"]
 								}] },
-								{ "__identifier": "health", "__type": "Int", "__value": 15, "__tile": null, "defUid": 174, "realEditorValues": [] },
+								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "pre_attack", "__type": "Float", "__value": 0.1, "__tile": null, "defUid": 226, "realEditorValues": [] },
 								{ "__identifier": "post_attack", "__type": "Float", "__value": 0.5, "__tile": null, "defUid": 203, "realEditorValues": [] },
@@ -1486,7 +1486,7 @@
 							"px": [664,176],
 							"fieldInstances": [
 								{ "__identifier": "aseprite", "__type": "String", "__value": "../assets/ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
-								{ "__identifier": "health", "__type": "Int", "__value": 15, "__tile": null, "defUid": 174, "realEditorValues": [] },
+								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "pre_attack", "__type": "Float", "__value": 0.1, "__tile": null, "defUid": 226, "realEditorValues": [] },
 								{ "__identifier": "post_attack", "__type": "Float", "__value": 0.5, "__tile": null, "defUid": 203, "realEditorValues": [] },
@@ -1513,7 +1513,7 @@
 							"px": [392,400],
 							"fieldInstances": [
 								{ "__identifier": "aseprite", "__type": "String", "__value": "../assets/ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
-								{ "__identifier": "health", "__type": "Int", "__value": 15, "__tile": null, "defUid": 174, "realEditorValues": [] },
+								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "pre_attack", "__type": "Float", "__value": 0.1, "__tile": null, "defUid": 226, "realEditorValues": [] },
 								{ "__identifier": "post_attack", "__type": "Float", "__value": 0.5, "__tile": null, "defUid": 203, "realEditorValues": [] },
