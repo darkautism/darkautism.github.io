@@ -25,6 +25,10 @@
     </style>
   </head>
   <script type="module">
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+
     import init from './Saraqael.js'
     init()
   </script>
