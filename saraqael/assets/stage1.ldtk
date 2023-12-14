@@ -1156,36 +1156,14 @@
 			"cachedPixelData": { "opaqueTiles": "010000110000000", "averageColors": "e676f675f202b686b686e422f202f34300000000e423e312f44300000000" }
 		},
 		{
-			"__cWid": 8,
-			"__cHei": 8,
-			"identifier": "Cat",
-			"uid": 190,
-			"relPath": "ases/cat.ase",
-			"embedAtlas": null,
-			"pxWid": 144,
-			"pxHei": 144,
-			"tileGridSize": 18,
-			"spacing": 0,
-			"padding": 0,
-			"tags": [],
-			"tagsSourceEnumUid": null,
-			"enumTags": [],
-			"customData": [],
-			"savedSelections": [],
-			"cachedPixelData": {
-				"opaqueTiles": "0000000000000000000000000000000000000000000000000000000000000000",
-				"averageColors": "4999499949994999499949994999499948884888488848884888488848884888599959995999599959995999599959995999488848884888499949994888499948884888488848885999599959995999599959994999699958885999599959995999599958885999599959995999599959990000000000000000000000000000"
-			}
-		},
-		{
-			"__cWid": 6,
-			"__cHei": 6,
+			"__cWid": 7,
+			"__cHei": 7,
 			"identifier": "Saraqael",
 			"uid": 191,
 			"relPath": "ases/saraqael.ase",
 			"embedAtlas": null,
-			"pxWid": 288,
-			"pxHei": 288,
+			"pxWid": 336,
+			"pxHei": 336,
 			"tileGridSize": 48,
 			"spacing": 0,
 			"padding": 0,
@@ -1195,30 +1173,8 @@
 			"customData": [],
 			"savedSelections": [],
 			"cachedPixelData": {
-				"opaqueTiles": "000000000000000000000000000000000000",
-				"averageColors": "687668666866687658765876587658765866686558656866686658666876587658765865587568766866686658755865586558755865586558656876686668766876586668666876"
-			}
-		},
-		{
-			"__cWid": 13,
-			"__cHei": 24,
-			"identifier": "Cerestia",
-			"uid": 195,
-			"relPath": "ases/cerestia.ase",
-			"embedAtlas": null,
-			"pxWid": 414,
-			"pxHei": 744,
-			"tileGridSize": 32,
-			"spacing": 0,
-			"padding": 0,
-			"tags": [],
-			"tagsSourceEnumUid": null,
-			"enumTags": [],
-			"customData": [],
-			"savedSelections": [],
-			"cachedPixelData": {
-				"opaqueTiles": "000000000000100000000000010001010000001000000000000100000000000010000000000001000000000000100000000000010000000000001000000000000100000000000010000000000001000000000000100000000000010000000000001000000000000100000000000010000010000001000000000000100000000000010000000000001000000000000100000000000011111111111111",
-				"averageColors": "3b849cba4b809dca4b809dca4b829cb95b968ca87ca96b9600006cb9edba4b97edcb4b96edcb4ca8ddca6cb9cdca9cba9cba0000adcbecbb9dcbfccb7dcbfdcb6bbafcbb6bbaeccb8cbbdcba00004ccb9cbb3dcb9bba3bbb8cba3aaa8cba3bbb7cbb4aaa6cbb00004b95bcb94b80acba4b80bcba4b82bcb95b969ca88ca87ba700006cb9edcb4ba7fdcb4ca8fdcb4ca8edcb7cbacdcb9dba9dcb0000bccbeccb7dcbfdcb8dcbfccb7bbafcba7bbaecbb8cbadcba00003ba97cba2dca7cbb1cba8cba2a997bba3baa6cba3aa95bba00005b95dcb95b81ccca5b80ccba5b82bcb96b97aca88ca88ba700006cbaedcb4cb9fdcb5cbafdcb5ca9edcb6cbaddcb9cbabdcb0000bccbecbb9dcbfcbb9dcbfcbbaccbfcbbacbbfcbb9cbaecbb00002a986bba2cb87cba1b977cba1b976cba2ba95cb93cba3ca900005b96dcba5a71ddcb5a70dcba5b83ccba6b97bca99ca88ba800007dcbedcb4cbafdcb4cbafdcb4caaedcb6cbacdcb8cbaadcb0000bdcbecba8dcbfcba8ccbfcbb8cbbfcbb8bbafccb9cbaecbb00001b856dba1b846dba1b847dba2b946cba2ca85cb94cba2caa00005b96ecba5a71ddcb5a72dcba5b95dcba7ba8bca99ca9000000007dcbedbb5cbafdcb5cbafdcb6cbafdcb7bbaedcb8cba00000000accbdcba8dcbecba8ccbecbb8cbbecba8cbbdcba8cba0000000008883cba00003cba00003cba0a992cba1cbb2ba92cbb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+				"opaqueTiles": "0000000000000000000000000000000000000000000000000",
+				"averageColors": "6876686668666876587658765876587668666865586568666866586668765876587658655875687668666866587558655865587558655865586568766866687668765866686668766876587658655876587658760000000000000000000000000000"
 			}
 		},
 		{
@@ -1288,14 +1244,14 @@
 			}
 		},
 		{
-			"__cWid": 6,
-			"__cHei": 6,
+			"__cWid": 5,
+			"__cHei": 5,
 			"identifier": "Shield_chicken",
 			"uid": 229,
 			"relPath": "ases/shield-chicken.ase",
 			"embedAtlas": null,
-			"pxWid": 432,
-			"pxHei": 432,
+			"pxWid": 360,
+			"pxHei": 360,
 			"tileGridSize": 72,
 			"spacing": 0,
 			"padding": 0,
@@ -1305,8 +1261,8 @@
 			"customData": [],
 			"savedSelections": [],
 			"cachedPixelData": {
-				"opaqueTiles": "000000000000000000000000000000000000",
-				"averageColors": "655575547554755465556555655465556555655565557554755575547554755485547554755475546555655565557555655565557555000000000000000000000000000000000000"
+				"opaqueTiles": "0000000000000000000000000",
+				"averageColors": "6555655565556555655565556555655565556555655575547555755475547555855475547554755465556555655565556555"
 			}
 		}
 	], "enums": [], "externalEnums": [], "levelFields": [] },

@@ -1,6 +1,10 @@
-choose-language = Choose Language
+choose-language = 選擇語言
 pause = 暫停
-control = Control
-setting = Setting
-return = Return
-exit-game = Exit Game
+control = 控制
+setting = 設定
+return = 返回遊戲
+restart = 重新遊戲
+exit-game = 離開遊戲
+not-implemented = 尚未實現
+confirm = Confirm
+cancel = Cancel
