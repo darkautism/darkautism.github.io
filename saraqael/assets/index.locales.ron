@@ -1,0 +1,8 @@
+({
+    "locale": Localization (
+        rons: [
+            "locales/en-US/menu.ftl.ron",
+            "locales/zh-TW/menu.ftl.ron"
+        ]
+    ),
+})
