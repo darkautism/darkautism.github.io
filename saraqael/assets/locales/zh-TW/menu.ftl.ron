@@ -2,5 +2,6 @@
     locale: "zh-TW",
     resources: [
         "menu/ui.ftl",
+        "menu/title.ftl",
     ]
 )
