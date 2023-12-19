@@ -3,5 +3,6 @@
     resources: [
         "menu/ui.ftl",
         "menu/title.ftl",
+        "menu/tooltips.ftl",
     ]
 )

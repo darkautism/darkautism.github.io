@@ -11,7 +11,7 @@
 	"iid": "ae8799d0-6280-11ee-a2c9-250ac6e047a0",
 	"jsonVersion": "1.4.1",
 	"appBuildId": 471015,
-	"nextUid": 240,
+	"nextUid": 243,
 	"identifierStyle": "Capitalize",
 	"toc": [],
 	"worldLayout": "Free",
@@ -1096,16 +1096,16 @@
 			"pivotY": 0.5,
 			"fieldDefs": [
 				{
-					"identifier": "image",
-					"doc": null,
-					"__type": "Tile",
-					"uid": 224,
-					"type": "F_Tile",
+					"identifier": "tooltips",
+					"doc": "顯示圖案",
+					"__type": "LocalEnum.Tooltips",
+					"uid": 241,
+					"type": "F_Enum(240)",
 					"isArray": false,
-					"canBeNull": true,
+					"canBeNull": false,
 					"arrayMinLength": null,
 					"arrayMaxLength": null,
-					"editorDisplayMode": "EntityTile",
+					"editorDisplayMode": "Hidden",
 					"editorDisplayScale": 1,
 					"editorDisplayPos": "Above",
 					"editorLinkStyle": "StraightArrow",
@@ -1122,7 +1122,7 @@
 					"acceptFileTypes": null,
 					"defaultOverride": {
 						"id": "V_String",
-						"params": ["32,400,16,32"]
+						"params": ["Move"]
 					},
 					"textLanguageMode": null,
 					"symmetricalRef": false,
@@ -1131,7 +1131,42 @@
 					"allowedRefs": "OnlySame",
 					"allowedRefsEntityUid": null,
 					"allowedRefTags": [],
-					"tilesetUid": 220
+					"tilesetUid": null
+				},
+				{
+					"identifier": "string",
+					"doc": "顯示文字",
+					"__type": "String",
+					"uid": 242,
+					"type": "F_String",
+					"isArray": false,
+					"canBeNull": true,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayScale": 1,
+					"editorDisplayPos": "Above",
+					"editorLinkStyle": "StraightArrow",
+					"editorDisplayColor": null,
+					"editorAlwaysShow": false,
+					"editorShowInWorld": true,
+					"editorCutLongValues": true,
+					"editorTextSuffix": null,
+					"editorTextPrefix": null,
+					"useForSmartColor": false,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLanguageMode": null,
+					"symmetricalRef": false,
+					"autoChainRef": true,
+					"allowOutOfLevelRef": true,
+					"allowedRefs": "OnlySame",
+					"allowedRefsEntityUid": null,
+					"allowedRefTags": [],
+					"tilesetUid": null
 				}
 			]
 		},
@@ -1370,7 +1405,13 @@
 				"averageColors": "6555655565556555655565556555655565556555655575547555755475547555855475547554755465556555655565556555"
 			}
 		}
-	], "enums": [], "externalEnums": [], "levelFields": [
+	], "enums": [{ "identifier": "Tooltips", "uid": 240, "values": [
+		{ "id": "Move", "tileRect": { "tilesetUid": 221, "x": 128, "y": 48, "w": 32, "h": 32 }, "color": 4599742 },
+		{ "id": "Interactive", "tileRect": { "tilesetUid": 221, "x": 16, "y": 64, "w": 16, "h": 16 }, "color": 14120515 },
+		{ "id": "Attack", "tileRect": { "tilesetUid": 221, "x": 16, "y": 32, "w": 16, "h": 16 }, "color": 12470831 },
+		{ "id": "Jump", "tileRect": { "tilesetUid": 221, "x": 16, "y": 48, "w": 16, "h": 16 }, "color": 15389866 },
+		{ "id": "Dash", "tileRect": { "tilesetUid": 221, "x": 336, "y": 64, "w": 16, "h": 16 }, "color": 14984818 }
+	], "iconTilesetUid": 221, "externalRelPath": null, "externalFileChecksum": null, "tags": [] }], "externalEnums": [], "levelFields": [
 		{
 			"identifier": "background",
 			"doc": null,
@@ -1484,51 +1525,26 @@
 							]
 						},
 						{
-							"__identifier": "PlayerChat",
-							"__grid": [16,21],
+							"__identifier": "ToolTips",
+							"__grid": [7,22],
 							"__pivot": [0.5,0.5],
 							"__tags": ["region"],
 							"__tile": null,
-							"__smartColor": "#EAD4AA",
-							"__worldX": 16,
-							"__worldY": 192,
-							"iid": "ffdf6b20-8990-11ee-85b0-59e85c658fdd",
-							"width": 16,
-							"height": 128,
-							"defUid": 212,
-							"px": [256,336],
-							"fieldInstances": [
-								{ "__identifier": "dialogue", "__type": "Array<String>", "__value": [ "ㄎㄎ", "DD" ], "__tile": null, "defUid": 216, "realEditorValues": [ {
-									"id": "V_String",
-									"params": ["ㄎㄎ"]
-								}, {
-									"id": "V_String",
-									"params": ["DD"]
-								} ] },
-								{ "__identifier": "only_once", "__type": "Bool", "__value": false, "__tile": null, "defUid": 217, "realEditorValues": [{
-									"id": "V_Bool",
-									"params": [ false ]
-								}] }
-							]
-						},
-						{
-							"__identifier": "ToolTips",
-							"__grid": [8,19],
-							"__pivot": [0.5,0.5],
-							"__tags": ["region"],
-							"__tile": { "tilesetUid": 220, "x": 32, "y": 416, "w": 16, "h": 16 },
 							"__smartColor": "#D77643",
-							"__worldX": -104,
-							"__worldY": 168,
+							"__worldX": -120,
+							"__worldY": 216,
 							"iid": "d7691f30-8990-11ee-85b0-7d71610c63de",
 							"width": 160,
-							"height": 192,
+							"height": 96,
 							"defUid": 223,
-							"px": [136,312],
-							"fieldInstances": [{ "__identifier": "image", "__type": "Tile", "__value": { "tilesetUid": 220, "x": 32, "y": 416, "w": 16, "h": 16 }, "__tile": { "tilesetUid": 220, "x": 32, "y": 416, "w": 16, "h": 16 }, "defUid": 224, "realEditorValues": [{
-								"id": "V_String",
-								"params": ["32,416,16,16"]
-							}] }]
+							"px": [120,360],
+							"fieldInstances": [
+								{ "__identifier": "tooltips", "__type": "LocalEnum.Tooltips", "__value": "Move", "__tile": null, "defUid": 241, "realEditorValues": [null] },
+								{ "__identifier": "string", "__type": "String", "__value": "move-tooltips", "__tile": null, "defUid": 242, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["move-tooltips"]
+								}] }
+							]
 						},
 						{
 							"__identifier": "Mob",
@@ -1613,33 +1629,6 @@
 						},
 						{
 							"__identifier": "Mob",
-							"__grid": [22,24],
-							"__pivot": [0.5,1],
-							"__tags": [ "Actor", "Enemy" ],
-							"__tile": { "tilesetUid": 229, "x": 0, "y": 0, "w": 72, "h": 72 },
-							"__smartColor": "#5959B7",
-							"__worldX": 120,
-							"__worldY": 256,
-							"iid": "0b92f7f0-8990-11ee-9bc4-d74b3f17d609",
-							"width": 72,
-							"height": 72,
-							"defUid": 171,
-							"px": [360,400],
-							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "../assets/ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
-								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
-								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
-								{ "__identifier": "pre_attack", "__type": "Float", "__value": 0.1, "__tile": null, "defUid": 226, "realEditorValues": [] },
-								{ "__identifier": "post_attack", "__type": "Float", "__value": 0.5, "__tile": null, "defUid": 203, "realEditorValues": [] },
-								{ "__identifier": "attack_speed", "__type": "Float", "__value": 0.5, "__tile": null, "defUid": 225, "realEditorValues": [] },
-								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
-								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
-								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
-								{ "__identifier": "range_of_attack", "__type": "Float", "__value": 50, "__tile": null, "defUid": 201, "realEditorValues": [] }
-							]
-						},
-						{
-							"__identifier": "Mob",
 							"__grid": [52,24],
 							"__pivot": [0.5,1],
 							"__tags": [ "Actor", "Enemy" ],
@@ -1652,33 +1641,6 @@
 							"height": 72,
 							"defUid": 171,
 							"px": [840,400],
-							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "../assets/ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
-								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
-								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
-								{ "__identifier": "pre_attack", "__type": "Float", "__value": 0.1, "__tile": null, "defUid": 226, "realEditorValues": [] },
-								{ "__identifier": "post_attack", "__type": "Float", "__value": 0.5, "__tile": null, "defUid": 203, "realEditorValues": [] },
-								{ "__identifier": "attack_speed", "__type": "Float", "__value": 0.5, "__tile": null, "defUid": 225, "realEditorValues": [] },
-								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
-								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
-								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
-								{ "__identifier": "range_of_attack", "__type": "Float", "__value": 50, "__tile": null, "defUid": 201, "realEditorValues": [] }
-							]
-						},
-						{
-							"__identifier": "Mob",
-							"__grid": [18,15],
-							"__pivot": [0.5,1],
-							"__tags": [ "Actor", "Enemy" ],
-							"__tile": { "tilesetUid": 229, "x": 0, "y": 0, "w": 72, "h": 72 },
-							"__smartColor": "#5959B7",
-							"__worldX": 56,
-							"__worldY": 112,
-							"iid": "e13c6990-8990-11ee-ac6d-1776275c4660",
-							"width": 72,
-							"height": 72,
-							"defUid": 171,
-							"px": [296,256],
 							"fieldInstances": [
 								{ "__identifier": "aseprite", "__type": "String", "__value": "../assets/ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
@@ -1720,6 +1682,81 @@
 								{ "__identifier": "aseprite", "__type": "FilePath", "__value": "ases/cerestia.ase", "__tile": null, "defUid": 239, "realEditorValues": [{
 									"id": "V_String",
 									"params": ["ases/cerestia.ase"]
+								}] }
+							]
+						},
+						{
+							"__identifier": "ToolTips",
+							"__grid": [26,23],
+							"__pivot": [0.5,0.5],
+							"__tags": ["region"],
+							"__tile": null,
+							"__smartColor": "#D77643",
+							"__worldX": 184,
+							"__worldY": 232,
+							"iid": "c9380a60-8990-11ee-817f-658b79c0b5cb",
+							"width": 96,
+							"height": 64,
+							"defUid": 223,
+							"px": [424,376],
+							"fieldInstances": [
+								{ "__identifier": "tooltips", "__type": "LocalEnum.Tooltips", "__value": "Jump", "__tile": null, "defUid": 241, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["Jump"]
+								}] },
+								{ "__identifier": "string", "__type": "String", "__value": "jump-tooltips", "__tile": null, "defUid": 242, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["jump-tooltips"]
+								}] }
+							]
+						},
+						{
+							"__identifier": "ToolTips",
+							"__grid": [24,13],
+							"__pivot": [0.5,0.5],
+							"__tags": ["region"],
+							"__tile": null,
+							"__smartColor": "#D77643",
+							"__worldX": 152,
+							"__worldY": 72,
+							"iid": "edf95f70-8990-11ee-817f-5d3ada10b699",
+							"width": 48,
+							"height": 80,
+							"defUid": 223,
+							"px": [392,216],
+							"fieldInstances": [
+								{ "__identifier": "tooltips", "__type": "LocalEnum.Tooltips", "__value": "Dash", "__tile": null, "defUid": 241, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["Dash"]
+								}] },
+								{ "__identifier": "string", "__type": "String", "__value": "dash-tooltips", "__tile": null, "defUid": 242, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["dash-tooltips"]
+								}] }
+							]
+						},
+						{
+							"__identifier": "ToolTips",
+							"__grid": [36,9],
+							"__pivot": [0.5,0.5],
+							"__tags": ["region"],
+							"__tile": null,
+							"__smartColor": "#D77643",
+							"__worldX": 344,
+							"__worldY": 8,
+							"iid": "09b87de0-8990-11ee-817f-51fe1851f260",
+							"width": 192,
+							"height": 64,
+							"defUid": 223,
+							"px": [584,152],
+							"fieldInstances": [
+								{ "__identifier": "tooltips", "__type": "LocalEnum.Tooltips", "__value": "Attack", "__tile": null, "defUid": 241, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["Attack"]
+								}] },
+								{ "__identifier": "string", "__type": "String", "__value": "attack-tooltips", "__tile": null, "defUid": 242, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["attack-tooltips"]
 								}] }
 							]
 						}
