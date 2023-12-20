@@ -601,7 +601,7 @@
 			"fieldDefs": [
 				{
 					"identifier": "aseprite",
-					"doc": "../assets/ases/shield-chicken.ase",
+					"doc": "ases/shield-chicken.ase",
 					"__type": "FilePath",
 					"uid": 227,
 					"type": "F_Path",
@@ -1331,14 +1331,14 @@
 			"cachedPixelData": { "opaqueTiles": "010000110000000", "averageColors": "e676f675f202b686b686e422f202f34300000000e423e312f44300000000" }
 		},
 		{
-			"__cWid": 8,
-			"__cHei": 8,
+			"__cWid": 1,
+			"__cHei": 1,
 			"identifier": "Saraqael",
 			"uid": 191,
-			"relPath": "ases/saraqael.ase",
+			"relPath": "png/saraqael.png",
 			"embedAtlas": null,
-			"pxWid": 384,
-			"pxHei": 384,
+			"pxWid": 48,
+			"pxHei": 48,
 			"tileGridSize": 48,
 			"spacing": 0,
 			"padding": 0,
@@ -1347,10 +1347,7 @@
 			"enumTags": [],
 			"customData": [],
 			"savedSelections": [],
-			"cachedPixelData": {
-				"opaqueTiles": "0000000000000000000000000000000000000000000000000000000000000000",
-				"averageColors": "6876687668666876587658765876587668666865586568666866586668765876587658655875687668666866587558655865587558655865586568766866687668765866686668766876587658655876587658766866686668666866686668666865686568666866686600000000000000000000000000000000000000000000"
-			}
+			"cachedPixelData": { "opaqueTiles": "0", "averageColors": "6876" }
 		},
 		{
 			"__cWid": 35,
@@ -1419,14 +1416,14 @@
 			}
 		},
 		{
-			"__cWid": 5,
-			"__cHei": 5,
-			"identifier": "Shield_chicken",
+			"__cWid": 1,
+			"__cHei": 1,
+			"identifier": "Shield_chicken2",
 			"uid": 229,
-			"relPath": "ases/shield-chicken.ase",
+			"relPath": "png/shield-chicken.png",
 			"embedAtlas": null,
-			"pxWid": 360,
-			"pxHei": 360,
+			"pxWid": 72,
+			"pxHei": 72,
 			"tileGridSize": 72,
 			"spacing": 0,
 			"padding": 0,
@@ -1435,10 +1432,7 @@
 			"enumTags": [],
 			"customData": [],
 			"savedSelections": [],
-			"cachedPixelData": {
-				"opaqueTiles": "0000000000000000000000000",
-				"averageColors": "6555655565556555655565556555655565556555655575547555755475547555855475547554755465556555655565556555"
-			}
+			"cachedPixelData": { "opaqueTiles": "0", "averageColors": "6555" }
 		},
 		{
 			"__cWid": 1,
