@@ -3,6 +3,8 @@
         rons: [
             "locales/en-US/menu.ftl.ron",
             "locales/zh-TW/menu.ftl.ron",
+            "locales/ja-JP/menu.ftl.ron",
+            "locales/ko-KR/menu.ftl.ron",
         ]
     ),
 })

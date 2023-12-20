@@ -602,9 +602,9 @@
 				{
 					"identifier": "aseprite",
 					"doc": "../assets/ases/shield-chicken.ase",
-					"__type": "String",
+					"__type": "FilePath",
 					"uid": 227,
-					"type": "F_String",
+					"type": "F_Path",
 					"isArray": false,
 					"canBeNull": false,
 					"arrayMinLength": null,
@@ -1616,7 +1616,10 @@
 							"defUid": 171,
 							"px": [520,176],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "../assets/ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
+								{ "__identifier": "aseprite", "__type": "FilePath", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["ases/shield-chicken.ase"]
+								}] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "pre_attack", "__type": "Float", "__value": 0.1, "__tile": null, "defUid": 226, "realEditorValues": [] },
@@ -1643,7 +1646,10 @@
 							"defUid": 171,
 							"px": [584,176],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "../assets/ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
+								{ "__identifier": "aseprite", "__type": "FilePath", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["ases/shield-chicken.ase"]
+								}] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "pre_attack", "__type": "Float", "__value": 0.1, "__tile": null, "defUid": 226, "realEditorValues": [] },
@@ -1670,7 +1676,10 @@
 							"defUid": 171,
 							"px": [632,176],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "../assets/ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
+								{ "__identifier": "aseprite", "__type": "FilePath", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["ases/shield-chicken.ase"]
+								}] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "pre_attack", "__type": "Float", "__value": 0.1, "__tile": null, "defUid": 226, "realEditorValues": [] },
@@ -1697,7 +1706,10 @@
 							"defUid": 171,
 							"px": [840,400],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "../assets/ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
+								{ "__identifier": "aseprite", "__type": "FilePath", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["ases/shield-chicken.ase"]
+								}] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "pre_attack", "__type": "Float", "__value": 0.1, "__tile": null, "defUid": 226, "realEditorValues": [] },
