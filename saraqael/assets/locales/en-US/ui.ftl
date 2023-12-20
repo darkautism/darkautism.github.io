@@ -1,0 +1,10 @@
+choose-language = Choose Language
+pause = Pause
+control = Control
+setting = Setting
+return = Return
+restart = Restart Game
+exit-game = Exit Game
+not-implemented = Not yet implemented
+confirm = Confirm
+cancel = Cancel

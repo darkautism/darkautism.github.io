@@ -1,8 +1,8 @@
 (
     locale: "zh-TW",
     resources: [
-        "menu/ui.ftl",
-        "menu/title.ftl",
-        "menu/tooltips.ftl",
+        "ui.ftl",
+        "title.ftl",
+        "tooltips.ftl",
     ]
 )
