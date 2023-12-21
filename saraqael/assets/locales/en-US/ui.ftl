@@ -8,3 +8,4 @@ exit-game = Exit Game
 not-implemented = Not yet implemented
 confirm = Confirm
 cancel = Cancel
+exit = Exit
