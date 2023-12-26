@@ -1730,16 +1730,28 @@
 							"defUid": 237,
 							"px": [560,288],
 							"fieldInstances": [
-								{ "__identifier": "dialogue", "__type": "Array<String>", "__value": [ "嗯？沒見過的生化人呢。", "我在做甚麼？顯而易見，販賣生活必需品。", "你可以叫我魔女。" ], "__tile": null, "defUid": 238, "realEditorValues": [ {
-									"id": "V_String",
-									"params": ["嗯？沒見過的生化人呢。"]
-								}, {
-									"id": "V_String",
-									"params": ["我在做甚麼？顯而易見，販賣生活必需品。"]
-								}, {
-									"id": "V_String",
-									"params": ["你可以叫我魔女。"]
-								} ] },
+								{ "__identifier": "dialogue", "__type": "Array<String>", "__value": [ "嗯？沒見過的生化人呢。", "我在做甚麼？顯而易見，販賣生活必需品。", "你可以叫我魔女。", "NIHAO", "YOYO" ], "__tile": null, "defUid": 238, "realEditorValues": [
+									{
+										"id": "V_String",
+										"params": ["嗯？沒見過的生化人呢。"]
+									},
+									{
+										"id": "V_String",
+										"params": ["我在做甚麼？顯而易見，販賣生活必需品。"]
+									},
+									{
+										"id": "V_String",
+										"params": ["你可以叫我魔女。"]
+									},
+									{
+										"id": "V_String",
+										"params": ["NIHAO"]
+									},
+									{
+										"id": "V_String",
+										"params": ["YOYO"]
+									}
+								] },
 								{ "__identifier": "aseprite", "__type": "FilePath", "__value": "ases/cerestia.ase", "__tile": null, "defUid": 239, "realEditorValues": [{
 									"id": "V_String",
 									"params": ["ases/cerestia.ase"]
