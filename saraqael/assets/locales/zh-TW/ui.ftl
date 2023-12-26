@@ -9,3 +9,4 @@ not-implemented = 尚未實現
 confirm = 確定
 cancel = 取消
 exit = 離開
+failed-game-msg = 你害沙拉凱爾被打哭了
