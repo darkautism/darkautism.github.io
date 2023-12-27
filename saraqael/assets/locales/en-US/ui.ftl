@@ -10,3 +10,5 @@ confirm = Confirm
 cancel = Cancel
 exit = Exit
 failed-game-msg = You caused Saraqael to cry by getting her hit.
+buy = Buy
+chat = Chat
