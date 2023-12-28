@@ -1730,12 +1730,15 @@
 							"defUid": 237,
 							"px": [560,288],
 							"fieldInstances": [
-								{ "__identifier": "dialogue", "__type": "Array<String>", "__value": [ "npc-shop-dialgue-0001", "npc-shop-dialgue-0002" ], "__tile": null, "defUid": 238, "realEditorValues": [ {
+								{ "__identifier": "dialogue", "__type": "Array<String>", "__value": [ "npc-shop-dialgue-0001", "npc-shop-dialgue-0002", "npc-shop-dialgue-0003" ], "__tile": null, "defUid": 238, "realEditorValues": [ {
 									"id": "V_String",
 									"params": ["npc-shop-dialgue-0001"]
 								}, {
 									"id": "V_String",
 									"params": ["npc-shop-dialgue-0002"]
+								}, {
+									"id": "V_String",
+									"params": ["npc-shop-dialgue-0003"]
 								} ] },
 								{ "__identifier": "aseprite", "__type": "FilePath", "__value": "ases/cerestia.ase", "__tile": null, "defUid": 239, "realEditorValues": [{
 									"id": "V_String",
