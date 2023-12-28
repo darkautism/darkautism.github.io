@@ -2,7 +2,9 @@
     locale: "en-US",
     resources: [
         "ui.ftl",
+        "text.ftl",
         "title.ftl",
         "tooltips.ftl",
+        "proprietary.ftl",
     ]
 )
