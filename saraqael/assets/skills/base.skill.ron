@@ -1,0 +1,42 @@
+[Skill (
+    name: "base_attack1"
+    pre: 0.05,
+    damage: 0.2,
+    post: 0.05,
+    allow_air: false,
+    allow_ground: true,
+    allow_dash: false,
+    attack_collider: "skillcollider_base1.png",
+    animation: "attack1",
+    input : [Attack]
+    input_duration: 0.05,
+    chain_skill: ["base_attack2"]
+),
+Skill (
+    name: "base_attack2"
+    pre: 0.05,
+    damage: 0.2,
+    post: 0.05,
+    allow_air: false,
+    allow_ground: true,
+    allow_dash: false,
+    attack_collider: "skillcollider_base2.png",
+    animation: "attack2",
+    input : [Attack]
+    input_duration: 0.05,
+    chain_skill: ["base_attack3"]
+),
+Skill (
+    name: "base_attack3"
+    pre: 0.05,
+    damage: 0.25,
+    post: 0.05,
+    allow_air: false,
+    allow_ground: true,
+    allow_dash: false,
+    attack_collider: "skillcollider_base3.png",
+    animation: "attack3",
+    input : []
+    input_duration: 0.00,
+    chain_skill: []
+)]
