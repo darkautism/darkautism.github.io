@@ -10,7 +10,7 @@
             allow_air: false,
             need_ground: true,
             allow_dash: false,
-            attack_collider: "skillcollider_base1.png",
+            attack_collider: "skills/skillcollider_base1.png",
             animation: "attack1",
             input : [Attack],
             chain_skill: ["base_attack2"]
@@ -25,7 +25,7 @@
             allow_air: false,
             need_ground: true,
             allow_dash: false,
-            attack_collider: "skillcollider_base2.png",
+            attack_collider: "skills/skillcollider_base2.png",
             animation: "attack2",
             input : [Attack],
             chain_skill: ["base_attack3"]
@@ -40,7 +40,7 @@
             allow_air: false,
             need_ground: true,
             allow_dash: false,
-            attack_collider: "skillcollider_base3.png",
+            attack_collider: "skills/skillcollider_base3.png",
             animation: "attack3",
             input : [Attack],
             chain_skill: []
