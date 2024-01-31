@@ -11,6 +11,7 @@
             need_ground: true,
             allow_dash: false,
             attack_collider: "skills/skillcollider_base1.png",
+            sfx: "sfx/27_sword_miss_1.ogg",
             animation: "attack1",
             input : [Attack],
             chain_skill: ["base_attack2"]
@@ -26,6 +27,7 @@
             need_ground: true,
             allow_dash: false,
             attack_collider: "skills/skillcollider_base2.png",
+            sfx: "sfx/27_sword_miss_2.ogg",
             animation: "attack2",
             input : [Attack],
             chain_skill: ["base_attack3"]
@@ -41,6 +43,23 @@
             need_ground: true,
             allow_dash: false,
             attack_collider: "skills/skillcollider_base3.png",
+            sfx: "sfx/27_sword_miss_3.ogg",
+            animation: "attack3",
+            input : [Attack],
+            chain_skill: []
+        ),
+        "air_attack": Skill (
+            name: "air_attack",
+            total_duration: 0.35,
+            damage_duration: 0.05,
+            chain_input_duration: 0.25,
+            chain_cast_duration: 0.25,
+            is_directly_callable: true,
+            allow_air: true,
+            need_ground: false,
+            allow_dash: false,
+            attack_collider: "skills/skillcollider_base3.png",
+            sfx: "sfx/27_sword_miss_3.ogg",
             animation: "attack3",
             input : [Attack],
             chain_skill: []
