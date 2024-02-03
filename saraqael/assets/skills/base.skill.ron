@@ -58,7 +58,7 @@
             allow_air: true,
             need_ground: false,
             allow_dash: false,
-            attack_collider: "skills/skillcollider_base3.png",
+            attack_collider: "skills/skillcollider_airattack.png",
             sfx: "sfx/27_sword_miss_3.ogg",
             animation: "air_attack",
             input : [Attack],
