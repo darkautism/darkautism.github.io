@@ -1,0 +1,19 @@
+#![enable(implicit_some)]
+(
+    map:{
+        "shild_melee": Skill (
+            name: "shild_melee",
+            total_duration: 1.2,
+            damage_duration: 0.65,
+            damage_lifetime: 0.3,
+            is_directly_callable: true,
+            allow_air: false,
+            need_ground: true,
+            allow_dash: false,
+            attack_collider: "skills/skillcollider_shild_melee.png",
+            sfx: "sfx/22_orc_jump_1.ogg",
+            animation: "attack1",
+            chain_skill: [],
+        ),
+    }
+)
