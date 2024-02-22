@@ -2,8 +2,8 @@
 #![enable(unwrap_variant_newtypes)]
 (
     map:{
-        "shild_melee": Skill (
-            name: "shild_melee",
+        "shield_melee": Skill (
+            name: "shield_melee",
             skill_type: Melee,
             trigger_type: Range(50),
             total_duration: 1.2,
@@ -13,7 +13,7 @@
             allow_air: false,
             need_ground: true,
             allow_dash: false,
-            attack_collider: "skills/skillcollider_shild_melee.png",
+            attack_collider: "skills/skillcollider_shield_melee.png",
             sfx: "sfx/22_orc_jump_1.ogg",
             animation: "attack1",
             chain_skill: [],
