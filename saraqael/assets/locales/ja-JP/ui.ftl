@@ -1,0 +1,15 @@
+language = 言語
+cur-language = 日本語
+pause = 一時停止
+control = コントロール
+setting = 設定
+return = ゲームに戻る
+restart = ゲームを再開
+exit-game = ゲームを終了
+not-implemented = まだ実装されていません
+confirm = 確認
+cancel = キャンセル
+exit = 終了
+failed-game-msg = あなたはサラカエルを打って泣かせました
+buy = 購入
+chat = チャット

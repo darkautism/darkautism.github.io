@@ -1,4 +1,6 @@
-choose-language = 選擇語言
+saraqael-advanture = 沙拉凱爾大冒險
+language = 語言
+cur-language = 繁體中文
 pause = 暫停
 control = 控制
 setting = 設定

@@ -1,5 +1,7 @@
 (
     locale: "ja-JP",
     resources: [
+        "ui.ftl",
+        "tooltips.ftl",
     ]
 )

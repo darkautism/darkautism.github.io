@@ -1,0 +1,15 @@
+language = 언어
+cur-language = 한국어
+pause = 일시 중지
+control = 제어
+setting = 설정
+return = 게임으로 돌아가기
+restart = 게임 재시작
+exit-game = 게임 종료
+not-implemented = 아직 구현되지 않음
+confirm = 확인
+cancel = 취소
+exit = 종료
+failed-game-msg = 당신은 사라카엘을 때려서 울게 했습니다
+buy = 구매
+chat = 채팅

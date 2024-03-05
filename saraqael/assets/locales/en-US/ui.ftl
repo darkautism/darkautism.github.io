@@ -1,4 +1,6 @@
-choose-language = Choose Language
+saraqael-advanture = Saraqael Advanture
+language = Language
+cur-language = English
 pause = Pause
 control = Control
 setting = Setting
