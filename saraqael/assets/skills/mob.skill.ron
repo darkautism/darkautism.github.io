@@ -17,8 +17,22 @@
             sfx: "sfx/22_orc_jump_1.ogg",
             animation: "attack1",
             chain_skill: [],
-
-
+        ),
+        "gun": Skill (
+            name: "gun",
+            skill_type: Projectile(FreeDirection, (20., -20.), 0.2, 300.),
+            trigger_type: Range(200),
+            total_duration: 2.25,
+            damage_duration: 1.10,
+            damage_lifetime: 1.0,
+            is_directly_callable: true,
+            allow_air: false,
+            need_ground: true,
+            allow_dash: false,
+            attack_collider: "skills/bullet.png",
+            sfx: "sfx/22_orc_jump_1.ogg",
+            animation: "attack1",
+            chain_skill: [],
         ),
     }
 )
