@@ -11,7 +11,7 @@
 	"iid": "ae8799d0-6280-11ee-a2c9-250ac6e047a0",
 	"jsonVersion": "1.5.3",
 	"appBuildId": 473703,
-	"nextUid": 293,
+	"nextUid": 294,
 	"identifierStyle": "Capitalize",
 	"toc": [],
 	"worldLayout": "Free",
@@ -1746,9 +1746,9 @@
 			"color": "#733E39",
 			"renderMode": "Tile",
 			"showName": true,
-			"tilesetId": 292,
+			"tilesetId": 293,
 			"tileRenderMode": "FitInside",
-			"tileRect": { "tilesetUid": 292, "x": 0, "y": 0, "w": 32, "h": 32 },
+			"tileRect": { "tilesetUid": 293, "x": 0, "y": 0, "w": 32, "h": 32 },
 			"uiTileRect": null,
 			"nineSliceBorders": [],
 			"maxCount": 0,
@@ -1976,6 +1976,28 @@
 			"customData": [],
 			"savedSelections": [],
 			"cachedPixelData": { "opaqueTiles": "0", "averageColors": "976b" }
+		},
+		{
+			"__cWid": 5,
+			"__cHei": 4,
+			"identifier": "Chest",
+			"uid": 293,
+			"relPath": "png/chest.png",
+			"embedAtlas": null,
+			"pxWid": 160,
+			"pxHei": 128,
+			"tileGridSize": 32,
+			"spacing": 0,
+			"padding": 0,
+			"tags": [],
+			"tagsSourceEnumUid": null,
+			"enumTags": [],
+			"customData": [],
+			"savedSelections": [],
+			"cachedPixelData": {
+				"opaqueTiles": "00000000000000000000",
+				"averageColors": "976b976b986b987ba97c9b859b969b969b97aca798a798a799a799a8a9b89b799b799b79ab89ab8a"
+			}
 		}
 	], "enums": [
 		{ "identifier": "Tooltips", "uid": 240, "values": [
@@ -3481,7 +3503,7 @@
 							"__grid": [22,18],
 							"__pivot": [0.5,1],
 							"__tags": [],
-							"__tile": { "tilesetUid": 292, "x": 0, "y": 0, "w": 32, "h": 32 },
+							"__tile": { "tilesetUid": 293, "x": 0, "y": 0, "w": 32, "h": 32 },
 							"__smartColor": "#733E39",
 							"iid": "9a226a10-d7b0-11ee-bbdd-6daa44eca9ad",
 							"width": 32,
