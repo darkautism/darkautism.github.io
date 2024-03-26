@@ -4,6 +4,10 @@ assets/sfx/27_sword_miss_1.ogg
 assets/sfx/27_sword_miss_2.ogg
 assets/sfx/27_sword_miss_3.ogg
 
+# https://jdsherbert.itch.io/walther-p38-sfx-pack
+assets/sfx/gun_prepare.ogg
+assets/sfx/gun_fire.ogg
+
 # https://coloralpha.itch.io/50-menu-interface-sfx
 assets/sfx/MI_SFX 12.ogg
 assets/sfx/MI_SFX 13.ogg
@@ -18,3 +22,4 @@ assets/png/gdb-xbox-2.png
 
 # https://amachamusic.chagasi.com/
 assets/bgm/
+
