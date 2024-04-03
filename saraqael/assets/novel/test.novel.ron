@@ -1,0 +1,10 @@
+(
+    lang: "zh-TW",
+    paragraphs:[
+        Paragraph(
+            image: "png/loading.png",
+            text: ["text01", "text02"],
+            fade_in_duration: 0.,
+        )
+    ]
+)
