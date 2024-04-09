@@ -3,7 +3,14 @@
     paragraphs:[
         Paragraph(
             image: "png/loading.png",
-            text: ["text01", "text02"],
+            text: [
+                Section(
+                    text: "很久很久以前…",
+                ),
+                Section(
+                    text: "多久以前啊",
+                )
+            ],
             fade_in_duration: 0.,
         )
     ]
