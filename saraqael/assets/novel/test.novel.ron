@@ -2,24 +2,33 @@
     lang: "zh-TW",
     paragraphs:[
         Paragraph(
-            image: "png/loading.png",
+            image: "png/story01.png",
             text: [
                 Section(
-                    text: "很久很久以前…",
+                    text: "在幽暗的地下室內，許多被遺棄的生化人製造裝置靜靜地排列著。",
                 ),
                 Section(
-                    text: "多久以前啊",
-                )
+                    text: "自從人類滅亡以來，這個地方已經長時間無人問津。",
+                ),
+                Section(
+                    text: "在這些裝置中，有一台特別的機器",
+                ),
             ],
         ),
         Paragraph(
-            image: "png/skillsandbufs.png",
+            image: "png/story02.png",
             text: [
                 Section(
-                    text: "第二張圖",
+                    text: "一個黑髮少女的身影若隱若現",
                 ),
                 Section(
-                    text: "嘿嘿",
+                    text: "她的身體被黑色的雙翼緊緊包裹。",
+                ),
+                Section(
+                    text: "在這個被遺忘的時代，這台機器早已應該停止運作",
+                ),
+                Section(
+                    text: "但現在，它卻被啟動了…",
                 )
             ],
         )
