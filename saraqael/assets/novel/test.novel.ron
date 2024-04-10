@@ -11,7 +11,18 @@
                     text: "多久以前啊",
                 )
             ],
-            fade_in_duration: 0.,
+        ),
+        Paragraph(
+            image: "png/skillsandbufs.png",
+            text: [
+                Section(
+                    text: "第二張圖",
+                ),
+                Section(
+                    text: "嘿嘿",
+                )
+            ],
         )
+        
     ]
 )
