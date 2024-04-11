@@ -1,0 +1,37 @@
+(
+    lang: "en-US",
+    id: "1-1",
+    paragraphs:[
+        Paragraph(
+            image: "png/story01.png",
+            text: [
+                Section(
+                    text: "In the dimly lit underground chamber, numerous abandoned bio-android manufacturing devices stand silently",
+                ),
+                Section(
+                    text: "Since the extinction of humanity, this place has remained untouched for a long time",
+                ),
+                Section(
+                    text: "Among these devices, there is one particular machine",
+                ),
+            ],
+        ),
+        Paragraph(
+            image: "png/story02.png",
+            text: [
+                Section(
+                    text: "The silhouette of a black-haired girl appears faintly.",
+                ),
+                Section(
+                    text: "Her body is tightly wrapped in black wings.",
+                ),
+                Section(
+                    text: "In this forgotten era, this machine should have long ceased to function",
+                ),
+                Section(
+                    text: " yet now it has been activated…",
+                )
+            ],
+        )
+    ]
+)

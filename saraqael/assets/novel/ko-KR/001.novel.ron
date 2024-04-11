@@ -1,0 +1,35 @@
+(
+    lang: "ko-KR",
+    id: "1-1",
+    paragraphs:[
+        Paragraph(
+            image: "png/story01.png",
+            text: [
+                Section(
+                    text: "어두운 지하실 안에는 버려진 생체인간 제조 장치들이 조용히 늘어섰습니다",
+                ),
+                Section(
+                    text: "인류가 멸망한 이후로 이곳은 오랜 기간 동안 사람이 없었습니다",
+                ),
+                Section(
+                    text: "이 장치들 가운데 특별한 기계가 있습니다",
+                ),
+            ],
+        ),
+        Paragraph(
+            image: "png/story02.png",
+            text: [
+                Section(
+                    text: "검은 머리의 소녀의 모습이 희미하게 드러납니다",
+                ),
+                Section(
+                    text: "그녀의 몸은 검은 날개로 감싸져 있습니다",
+                ),
+                Section(
+                    text: "이 잊혀진 시대에, 이 기계는 이미 작동을 멈추었어야 했지만, 지금은 작동 중입니다…",
+                ),
+            ],
+        )
+        
+    ]
+)

@@ -7,4 +7,12 @@
             "locales/ko-KR/menu.ftl.ron",
         ],
     ),
+    "storys": Files (
+        paths: [
+            "novel/en-US/001.novel.ron",
+            "novel/zh-TW/001.novel.ron",
+            "novel/ja-JP/001.novel.ron",
+            "novel/ko-KR/001.novel.ron",
+        ],
+    ),
 })

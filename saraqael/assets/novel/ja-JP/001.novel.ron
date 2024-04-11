@@ -1,0 +1,38 @@
+(
+    lang: "ja-JP",
+    id: "1-1",
+    paragraphs:[
+        Paragraph(
+            image: "png/story01.png",
+            text: [
+                Section(
+                    text: "幽暗な地下室には、多くの廃棄されたバイオロイド製造装置が静かに並んでいます",
+                ),
+                Section(
+                    text: "人類が滅亡して以来、この場所は長い間無人のままです",
+                ),
+                Section(
+                    text: "これらの装置の中には特別な機械があります",
+                ),
+            ],
+        ),
+        Paragraph(
+            image: "png/story02.png",
+            text: [
+                Section(
+                    text: "黒髪の少女の姿がぼんやりと現れます。",
+                ),
+                Section(
+                    text: "彼女の体は黒い翼に包まれています。",
+                ),
+                Section(
+                    text: "この忘れ去られた時代において、この機械は既に停止しているはずでしたが、",
+                ),
+                Section(
+                    text: "今、それは起動されています…",
+                )
+            ],
+        )
+        
+    ]
+)
