@@ -1,0 +1,44 @@
+({
+    "npc_dialog_textarea": TextureAtlasLayout (
+        tile_size_x: 960.,
+        tile_size_y: 200.,
+        columns: 5,
+        rows: 3,
+    ),
+    "npc_button": TextureAtlasLayout (
+        tile_size_x: 200.,
+        tile_size_y: 60.,
+        columns: 24,
+        rows: 10,
+    ),
+    "menu_background": TextureAtlasLayout (
+        tile_size_x: 400.,
+        tile_size_y: 600.,
+        columns: 12,
+        rows: 1,
+    ),
+    "health_boarder": TextureAtlasLayout (
+        tile_size_x: 300.,
+        tile_size_y: 30.,
+        columns: 16,
+        rows: 20,
+    ),
+    "xbox_btn_layout": TextureAtlasLayout (
+        tile_size_x: 16.,
+        tile_size_y: 16.,
+        columns: 35,
+        rows: 40,
+    ),
+    "keyboard_btn_layout": TextureAtlasLayout (
+        tile_size_x: 16.,
+        tile_size_y: 16.,
+        columns: 35,
+        rows: 40,
+    ),
+    "chest_layout": TextureAtlasLayout (
+        tile_size_x: 32.,
+        tile_size_y: 32.,
+        columns: 5,
+        rows: 4,
+    ),
+})
