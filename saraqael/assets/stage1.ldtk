@@ -2548,15 +2548,15 @@
 			"__smartColor": "#ADADB5",
 			"__bgPos": null,
 			"externalRelPath": null,
-			"fieldInstances": [{ "__identifier": "background", "__type": "Array<FilePath>", "__value": [ "background/0001.png", "background/0002.png", "background/0003.png" ], "__tile": null, "defUid": 235, "realEditorValues": [ {
+			"fieldInstances": [{ "__identifier": "background", "__type": "Array<FilePath>", "__value": [ "background\\0001.png", "background\\0002.png", "background\\0003.png" ], "__tile": null, "defUid": 235, "realEditorValues": [ {
 				"id": "V_String",
-				"params": ["background/0001.png"]
+				"params": ["background\\0001.png"]
 			}, {
 				"id": "V_String",
-				"params": ["background/0002.png"]
+				"params": ["background\\0002.png"]
 			}, {
 				"id": "V_String",
-				"params": ["background/0003.png"]
+				"params": ["background\\0003.png"]
 			} ] }],
 			"layerInstances": [
 				{
