@@ -1,4 +1,4 @@
-saraqael-advanture = 沙拉凱爾大冒險
+saraqael-adventure = 沙拉凱爾大冒險
 language = 語言
 cur-language = 繁體中文
 pause = 暫停

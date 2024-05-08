@@ -1,4 +1,4 @@
-saraqael-advanture = Saraqael Advanture
+saraqael-adventure = Saraqael Adventure
 language = Language
 cur-language = English
 pause = Pause
