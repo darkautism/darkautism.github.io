@@ -11,7 +11,7 @@
 	"iid": "ae8799d0-6280-11ee-a2c9-250ac6e047a0",
 	"jsonVersion": "1.5.3",
 	"appBuildId": 473703,
-	"nextUid": 325,
+	"nextUid": 328,
 	"identifierStyle": "Capitalize",
 	"toc": [],
 	"worldLayout": "Free",
@@ -25,7 +25,7 @@
 	"defaultEntityWidth": 16,
 	"defaultEntityHeight": 16,
 	"bgColor": "#40465B",
-	"defaultLevelBgColor": "#696A79",
+	"defaultLevelBgColor": "#ACACAC",
 	"minifyJson": false,
 	"externalLevels": false,
 	"exportTiled": false,
@@ -890,6 +890,43 @@
 					"allowedRefsEntityUid": null,
 					"allowedRefTags": [],
 					"tilesetUid": null
+				},
+				{
+					"identifier": "stun_resistance",
+					"doc": "對於暈眩的抗性",
+					"__type": "Int",
+					"uid": 327,
+					"type": "F_Int",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayScale": 1,
+					"editorDisplayPos": "Above",
+					"editorLinkStyle": "StraightArrow",
+					"editorDisplayColor": null,
+					"editorAlwaysShow": false,
+					"editorShowInWorld": true,
+					"editorCutLongValues": true,
+					"editorTextSuffix": null,
+					"editorTextPrefix": null,
+					"useForSmartColor": false,
+					"exportToToc": false,
+					"searchable": false,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": { "id": "V_Int", "params": [100] },
+					"textLanguageMode": null,
+					"symmetricalRef": false,
+					"autoChainRef": true,
+					"allowOutOfLevelRef": true,
+					"allowedRefs": "OnlySame",
+					"allowedRefsEntityUid": null,
+					"allowedRefTags": [],
+					"tilesetUid": null
 				}
 			]
 		},
@@ -1191,6 +1228,43 @@
 					"allowedRefsEntityUid": null,
 					"allowedRefTags": [],
 					"tilesetUid": null
+				},
+				{
+					"identifier": "stun_resistance",
+					"doc": "對於暈眩的抗性",
+					"__type": "Int",
+					"uid": 325,
+					"type": "F_Int",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayScale": 1,
+					"editorDisplayPos": "Above",
+					"editorLinkStyle": "StraightArrow",
+					"editorDisplayColor": null,
+					"editorAlwaysShow": false,
+					"editorShowInWorld": true,
+					"editorCutLongValues": true,
+					"editorTextSuffix": null,
+					"editorTextPrefix": null,
+					"useForSmartColor": false,
+					"exportToToc": false,
+					"searchable": false,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": { "id": "V_Int", "params": [80] },
+					"textLanguageMode": null,
+					"symmetricalRef": false,
+					"autoChainRef": true,
+					"allowOutOfLevelRef": true,
+					"allowedRefs": "OnlySame",
+					"allowedRefsEntityUid": null,
+					"allowedRefTags": [],
+					"tilesetUid": null
 				}
 			]
 		},
@@ -1484,6 +1558,43 @@
 						"id": "V_String",
 						"params": ["Gun"]
 					},
+					"textLanguageMode": null,
+					"symmetricalRef": false,
+					"autoChainRef": true,
+					"allowOutOfLevelRef": true,
+					"allowedRefs": "OnlySame",
+					"allowedRefsEntityUid": null,
+					"allowedRefTags": [],
+					"tilesetUid": null
+				},
+				{
+					"identifier": "stun_resistance",
+					"doc": "對於暈眩的抗性",
+					"__type": "Int",
+					"uid": 326,
+					"type": "F_Int",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayScale": 1,
+					"editorDisplayPos": "Above",
+					"editorLinkStyle": "StraightArrow",
+					"editorDisplayColor": null,
+					"editorAlwaysShow": false,
+					"editorShowInWorld": true,
+					"editorCutLongValues": true,
+					"editorTextSuffix": null,
+					"editorTextPrefix": null,
+					"useForSmartColor": false,
+					"exportToToc": false,
+					"searchable": false,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": { "id": "V_Int", "params": [40] },
 					"textLanguageMode": null,
 					"symmetricalRef": false,
 					"autoChainRef": true,
@@ -2548,15 +2659,15 @@
 			"__smartColor": "#ADADB5",
 			"__bgPos": null,
 			"externalRelPath": null,
-			"fieldInstances": [{ "__identifier": "background", "__type": "Array<FilePath>", "__value": [ "background\\0001.png", "background\\0002.png", "background\\0003.png" ], "__tile": null, "defUid": 235, "realEditorValues": [ {
+			"fieldInstances": [{ "__identifier": "background", "__type": "Array<FilePath>", "__value": [ "background\\\\0001.png", "background\\\\0002.png", "background\\\\0003.png" ], "__tile": null, "defUid": 235, "realEditorValues": [ {
 				"id": "V_String",
-				"params": ["background\\0001.png"]
+				"params": ["background/0001.png"]
 			}, {
 				"id": "V_String",
-				"params": ["background\\0002.png"]
+				"params": ["background/0002.png"]
 			}, {
 				"id": "V_String",
-				"params": ["background\\0003.png"]
+				"params": ["background/0003.png"]
 			} ] }],
 			"layerInstances": [
 				{
@@ -2599,7 +2710,8 @@
 								{ "__identifier": "max_health", "__type": "Int", "__value": 100, "__tile": null, "defUid": 178, "realEditorValues": [] },
 								{ "__identifier": "health", "__type": "Int", "__value": 100, "__tile": null, "defUid": 179, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 10, "__tile": null, "defUid": 180, "realEditorValues": [] },
-								{ "__identifier": "def", "__type": "Int", "__value": 5, "__tile": null, "defUid": 181, "realEditorValues": [] }
+								{ "__identifier": "def", "__type": "Int", "__value": 5, "__tile": null, "defUid": 181, "realEditorValues": [] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 100, "__tile": null, "defUid": 327, "realEditorValues": [] }
 							],
 							"__worldX": 120,
 							"__worldY": -72
@@ -2648,7 +2760,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Shield_melee"], "__tile": null, "defUid": 279, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Shield_melee"], "__tile": null, "defUid": 279, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 80, "__tile": null, "defUid": 325, "realEditorValues": [] }
 							],
 							"__worldX": 520,
 							"__worldY": -288
@@ -2675,7 +2788,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Shield_melee"], "__tile": null, "defUid": 279, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Shield_melee"], "__tile": null, "defUid": 279, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 80, "__tile": null, "defUid": 325, "realEditorValues": [] }
 							],
 							"__worldX": 584,
 							"__worldY": -288
@@ -2702,7 +2816,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Shield_melee"], "__tile": null, "defUid": 279, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Shield_melee"], "__tile": null, "defUid": 279, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 80, "__tile": null, "defUid": 325, "realEditorValues": [] }
 							],
 							"__worldX": 632,
 							"__worldY": -288
@@ -2729,7 +2844,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Shield_melee"], "__tile": null, "defUid": 279, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Shield_melee"], "__tile": null, "defUid": 279, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 80, "__tile": null, "defUid": 325, "realEditorValues": [] }
 							],
 							"__worldX": 840,
 							"__worldY": -64
@@ -2888,7 +3004,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 376,
 							"__worldY": -112
@@ -2912,7 +3029,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 936,
 							"__worldY": -80
@@ -2936,7 +3054,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 760,
 							"__worldY": -96
@@ -2960,7 +3079,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 728,
 							"__worldY": -64
@@ -2984,7 +3104,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 792,
 							"__worldY": -80
@@ -3008,7 +3129,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 888,
 							"__worldY": -80
@@ -3032,7 +3154,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 984,
 							"__worldY": -80
@@ -3056,7 +3179,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 1032,
 							"__worldY": -80
@@ -3080,7 +3204,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 1000,
 							"__worldY": -160
@@ -3104,7 +3229,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 888,
 							"__worldY": -192
@@ -3128,7 +3254,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 792,
 							"__worldY": -192
@@ -3152,7 +3279,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 744,
 							"__worldY": -192
@@ -3176,7 +3304,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 984,
 							"__worldY": -288
@@ -3200,7 +3329,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 872,
 							"__worldY": -336
@@ -3224,7 +3354,8 @@
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 284, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 285, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 286, "realEditorValues": [] },
-								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] }
+								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Gun"], "__tile": null, "defUid": 287, "realEditorValues": [null] },
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 40, "__tile": null, "defUid": 326, "realEditorValues": [] }
 							],
 							"__worldX": 856,
 							"__worldY": -288
@@ -4028,14 +4159,14 @@
 			"worldDepth": 0,
 			"pxWid": 640,
 			"pxHei": 368,
-			"__bgColor": "#696A79",
+			"__bgColor": "#ACACAC",
 			"bgColor": null,
 			"useAutoIdentifier": true,
 			"bgRelPath": null,
 			"bgPos": null,
 			"bgPivotX": 0.5,
 			"bgPivotY": 0.5,
-			"__smartColor": "#ADADB5",
+			"__smartColor": "#D1D1D1",
 			"__bgPos": null,
 			"externalRelPath": null,
 			"fieldInstances": [{ "__identifier": "background", "__type": "Array<FilePath>", "__value": [], "__tile": null, "defUid": 235, "realEditorValues": [] }],
@@ -4515,14 +4646,14 @@
 			"worldDepth": 0,
 			"pxWid": 640,
 			"pxHei": 368,
-			"__bgColor": "#696A79",
+			"__bgColor": "#ACACAC",
 			"bgColor": null,
 			"useAutoIdentifier": true,
 			"bgRelPath": null,
 			"bgPos": null,
 			"bgPivotX": 0.5,
 			"bgPivotY": 0.5,
-			"__smartColor": "#ADADB5",
+			"__smartColor": "#D1D1D1",
 			"__bgPos": null,
 			"externalRelPath": null,
 			"fieldInstances": [{ "__identifier": "background", "__type": "Array<FilePath>", "__value": [], "__tile": null, "defUid": 235, "realEditorValues": [] }],

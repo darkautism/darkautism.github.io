@@ -5,6 +5,7 @@
         "shield_melee": Skill (
             name: "shield_melee",
             skill_type: Melee,
+            stun_value: 0,
             trigger_type: Range(50),
             total_duration: 1.2,
             damage_duration: 0.65,
@@ -22,6 +23,7 @@
             name: "gun",
             skill_type: Projectile(FreeDirection, (20., -20.), 0.2, 300.),
             trigger_type: Range(200),
+            stun_value: 0,
             total_duration: 2.25,
             damage_duration: 1.10,
             damage_lifetime: 1.0,
