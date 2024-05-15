@@ -11,7 +11,7 @@
 	"iid": "ae8799d0-6280-11ee-a2c9-250ac6e047a0",
 	"jsonVersion": "1.5.3",
 	"appBuildId": 473703,
-	"nextUid": 331,
+	"nextUid": 334,
 	"identifierStyle": "Capitalize",
 	"toc": [],
 	"worldLayout": "Free",
@@ -927,6 +927,46 @@
 					"allowedRefsEntityUid": null,
 					"allowedRefTags": [],
 					"tilesetUid": null
+				},
+				{
+					"identifier": "sprite",
+					"doc": "sprite",
+					"__type": "String",
+					"uid": 331,
+					"type": "F_String",
+					"isArray": false,
+					"canBeNull": true,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayScale": 1,
+					"editorDisplayPos": "Above",
+					"editorLinkStyle": "StraightArrow",
+					"editorDisplayColor": null,
+					"editorAlwaysShow": false,
+					"editorShowInWorld": true,
+					"editorCutLongValues": true,
+					"editorTextSuffix": null,
+					"editorTextPrefix": null,
+					"useForSmartColor": false,
+					"exportToToc": false,
+					"searchable": false,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": {
+						"id": "V_String",
+						"params": ["saraqael"]
+					},
+					"textLanguageMode": null,
+					"symmetricalRef": false,
+					"autoChainRef": true,
+					"allowOutOfLevelRef": true,
+					"allowedRefs": "OnlySame",
+					"allowedRefsEntityUid": null,
+					"allowedRefTags": [],
+					"tilesetUid": null
 				}
 			]
 		},
@@ -964,46 +1004,6 @@
 			"pivotX": 0.5,
 			"pivotY": 1,
 			"fieldDefs": [
-				{
-					"identifier": "aseprite",
-					"doc": "ases/shield-chicken.ase",
-					"__type": "String",
-					"uid": 227,
-					"type": "F_String",
-					"isArray": false,
-					"canBeNull": false,
-					"arrayMinLength": null,
-					"arrayMaxLength": null,
-					"editorDisplayMode": "Hidden",
-					"editorDisplayScale": 1,
-					"editorDisplayPos": "Above",
-					"editorLinkStyle": "StraightArrow",
-					"editorDisplayColor": null,
-					"editorAlwaysShow": false,
-					"editorShowInWorld": true,
-					"editorCutLongValues": true,
-					"editorTextSuffix": null,
-					"editorTextPrefix": null,
-					"useForSmartColor": false,
-					"exportToToc": false,
-					"searchable": false,
-					"min": null,
-					"max": null,
-					"regex": null,
-					"acceptFileTypes": null,
-					"defaultOverride": {
-						"id": "V_String",
-						"params": ["ases/shield-chicken.ase"]
-					},
-					"textLanguageMode": null,
-					"symmetricalRef": false,
-					"autoChainRef": true,
-					"allowOutOfLevelRef": true,
-					"allowedRefs": "OnlySame",
-					"allowedRefsEntityUid": null,
-					"allowedRefTags": [],
-					"tilesetUid": null
-				},
 				{
 					"identifier": "health",
 					"doc": "怪物的血量",
@@ -1265,6 +1265,46 @@
 					"allowedRefsEntityUid": null,
 					"allowedRefTags": [],
 					"tilesetUid": null
+				},
+				{
+					"identifier": "sprite",
+					"doc": null,
+					"__type": "String",
+					"uid": 332,
+					"type": "F_String",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayScale": 1,
+					"editorDisplayPos": "Above",
+					"editorLinkStyle": "StraightArrow",
+					"editorDisplayColor": null,
+					"editorAlwaysShow": false,
+					"editorShowInWorld": true,
+					"editorCutLongValues": true,
+					"editorTextSuffix": null,
+					"editorTextPrefix": null,
+					"useForSmartColor": false,
+					"exportToToc": false,
+					"searchable": false,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": {
+						"id": "V_String",
+						"params": ["shield-chicken"]
+					},
+					"textLanguageMode": null,
+					"symmetricalRef": false,
+					"autoChainRef": true,
+					"allowOutOfLevelRef": true,
+					"allowedRefs": "OnlySame",
+					"allowedRefsEntityUid": null,
+					"allowedRefTags": [],
+					"tilesetUid": null
 				}
 			]
 		},
@@ -1302,46 +1342,6 @@
 			"pivotX": 0.5,
 			"pivotY": 1,
 			"fieldDefs": [
-				{
-					"identifier": "aseprite",
-					"doc": "ases/gun-chicken.ase",
-					"__type": "String",
-					"uid": 281,
-					"type": "F_String",
-					"isArray": false,
-					"canBeNull": false,
-					"arrayMinLength": null,
-					"arrayMaxLength": null,
-					"editorDisplayMode": "Hidden",
-					"editorDisplayScale": 1,
-					"editorDisplayPos": "Above",
-					"editorLinkStyle": "StraightArrow",
-					"editorDisplayColor": null,
-					"editorAlwaysShow": false,
-					"editorShowInWorld": true,
-					"editorCutLongValues": true,
-					"editorTextSuffix": null,
-					"editorTextPrefix": null,
-					"useForSmartColor": false,
-					"exportToToc": false,
-					"searchable": false,
-					"min": null,
-					"max": null,
-					"regex": null,
-					"acceptFileTypes": null,
-					"defaultOverride": {
-						"id": "V_String",
-						"params": ["ases/gun-chicken.ase"]
-					},
-					"textLanguageMode": null,
-					"symmetricalRef": false,
-					"autoChainRef": true,
-					"allowOutOfLevelRef": true,
-					"allowedRefs": "OnlySame",
-					"allowedRefsEntityUid": null,
-					"allowedRefTags": [],
-					"tilesetUid": null
-				},
 				{
 					"identifier": "health",
 					"doc": "怪物的血量",
@@ -1595,6 +1595,46 @@
 					"regex": null,
 					"acceptFileTypes": null,
 					"defaultOverride": { "id": "V_Int", "params": [30] },
+					"textLanguageMode": null,
+					"symmetricalRef": false,
+					"autoChainRef": true,
+					"allowOutOfLevelRef": true,
+					"allowedRefs": "OnlySame",
+					"allowedRefsEntityUid": null,
+					"allowedRefTags": [],
+					"tilesetUid": null
+				},
+				{
+					"identifier": "sprite",
+					"doc": null,
+					"__type": "String",
+					"uid": 333,
+					"type": "F_String",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayScale": 1,
+					"editorDisplayPos": "Above",
+					"editorLinkStyle": "StraightArrow",
+					"editorDisplayColor": null,
+					"editorAlwaysShow": false,
+					"editorShowInWorld": true,
+					"editorCutLongValues": true,
+					"editorTextSuffix": null,
+					"editorTextPrefix": null,
+					"useForSmartColor": false,
+					"exportToToc": false,
+					"searchable": false,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": {
+						"id": "V_String",
+						"params": ["gun-chicken"]
+					},
 					"textLanguageMode": null,
 					"symmetricalRef": false,
 					"autoChainRef": true,
@@ -1874,43 +1914,6 @@
 					"type": "F_String",
 					"isArray": true,
 					"canBeNull": true,
-					"arrayMinLength": null,
-					"arrayMaxLength": null,
-					"editorDisplayMode": "Hidden",
-					"editorDisplayScale": 1,
-					"editorDisplayPos": "Above",
-					"editorLinkStyle": "StraightArrow",
-					"editorDisplayColor": null,
-					"editorAlwaysShow": false,
-					"editorShowInWorld": true,
-					"editorCutLongValues": true,
-					"editorTextSuffix": null,
-					"editorTextPrefix": null,
-					"useForSmartColor": false,
-					"exportToToc": false,
-					"searchable": false,
-					"min": null,
-					"max": null,
-					"regex": null,
-					"acceptFileTypes": null,
-					"defaultOverride": null,
-					"textLanguageMode": null,
-					"symmetricalRef": false,
-					"autoChainRef": true,
-					"allowOutOfLevelRef": true,
-					"allowedRefs": "OnlySame",
-					"allowedRefsEntityUid": null,
-					"allowedRefTags": [],
-					"tilesetUid": null
-				},
-				{
-					"identifier": "aseprite",
-					"doc": null,
-					"__type": "FilePath",
-					"uid": 239,
-					"type": "F_Path",
-					"isArray": false,
-					"canBeNull": false,
 					"arrayMinLength": null,
 					"arrayMaxLength": null,
 					"editorDisplayMode": "Hidden",
@@ -2732,15 +2735,19 @@
 			"__smartColor": "#D1D1D1",
 			"__bgPos": null,
 			"externalRelPath": null,
-			"fieldInstances": [{ "__identifier": "background", "__type": "Array<FilePath>", "__value": [ "background\\\\\\\\0001.png", "background\\\\\\\\0002.png", "background\\\\\\\\0003.png" ], "__tile": null, "defUid": 235, "realEditorValues": [ {
+			"fieldInstances": [{ "__identifier": "background", "__type": "Array<FilePath>", "__value": [
+				"background\\\\\\\\\\\\\\\\0001.png",
+				"background\\\\\\\\\\\\\\\\0002.png",
+				"background\\\\\\\\\\\\\\\\0003.png"
+			], "__tile": null, "defUid": 235, "realEditorValues": [ {
 				"id": "V_String",
-				"params": ["background\\\\\\\\\\\\\\\\0001.png"]
+				"params": ["background\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\0001.png"]
 			}, {
 				"id": "V_String",
-				"params": ["background\\\\\\\\\\\\\\\\0002.png"]
+				"params": ["background\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\0002.png"]
 			}, {
 				"id": "V_String",
-				"params": ["background\\\\\\\\\\\\\\\\0003.png"]
+				"params": ["background\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\0003.png"]
 			} ] }],
 			"layerInstances": [
 				{
@@ -2802,17 +2809,14 @@
 							"defUid": 171,
 							"px": [520,176],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [{
-									"id": "V_String",
-									"params": ["ases/shield-chicken.ase"]
-								}] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
 								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Shield_melee"], "__tile": null, "defUid": 279, "realEditorValues": [null] },
-								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] }
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] },
+								{ "__identifier": "sprite", "__type": "String", "__value": "shield-chicken", "__tile": null, "defUid": 332, "realEditorValues": [] }
 							],
 							"__worldX": 1160,
 							"__worldY": -288
@@ -2830,17 +2834,14 @@
 							"defUid": 171,
 							"px": [584,176],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [{
-									"id": "V_String",
-									"params": ["ases/shield-chicken.ase"]
-								}] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
 								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Shield_melee"], "__tile": null, "defUid": 279, "realEditorValues": [null] },
-								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] }
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] },
+								{ "__identifier": "sprite", "__type": "String", "__value": "shield-chicken", "__tile": null, "defUid": 332, "realEditorValues": [] }
 							],
 							"__worldX": 1224,
 							"__worldY": -288
@@ -2858,17 +2859,14 @@
 							"defUid": 171,
 							"px": [632,176],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [{
-									"id": "V_String",
-									"params": ["ases/shield-chicken.ase"]
-								}] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
 								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": ["Shield_melee"], "__tile": null, "defUid": 279, "realEditorValues": [null] },
-								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] }
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] },
+								{ "__identifier": "sprite", "__type": "String", "__value": "shield-chicken", "__tile": null, "defUid": 332, "realEditorValues": [] }
 							],
 							"__worldX": 1272,
 							"__worldY": -288
@@ -2896,10 +2894,6 @@
 									"id": "V_String",
 									"params": ["npc-shop-dialgue-0003"]
 								} ] },
-								{ "__identifier": "aseprite", "__type": "FilePath", "__value": "ases/cerestia.ase", "__tile": null, "defUid": 239, "realEditorValues": [{
-									"id": "V_String",
-									"params": ["ases/cerestia.ase"]
-								}] },
 								{ "__identifier": "character_illustration_path", "__type": "FilePath", "__value": "png/npc-illustration.png", "__tile": null, "defUid": 244, "realEditorValues": [{
 									"id": "V_String",
 									"params": ["png/npc-illustration.png"]
@@ -3021,14 +3015,14 @@
 							"defUid": 171,
 							"px": [696,400],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
 								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": [], "__tile": null, "defUid": 279, "realEditorValues": [] },
-								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] }
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] },
+								{ "__identifier": "sprite", "__type": "String", "__value": "shield-chicken", "__tile": null, "defUid": 332, "realEditorValues": [] }
 							],
 							"__worldX": 1336,
 							"__worldY": -64
@@ -3046,14 +3040,14 @@
 							"defUid": 171,
 							"px": [760,400],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
 								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": [], "__tile": null, "defUid": 279, "realEditorValues": [] },
-								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] }
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] },
+								{ "__identifier": "sprite", "__type": "String", "__value": "shield-chicken", "__tile": null, "defUid": 332, "realEditorValues": [] }
 							],
 							"__worldX": 1400,
 							"__worldY": -64
@@ -3071,14 +3065,14 @@
 							"defUid": 171,
 							"px": [840,400],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
 								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": [], "__tile": null, "defUid": 279, "realEditorValues": [] },
-								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] }
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] },
+								{ "__identifier": "sprite", "__type": "String", "__value": "shield-chicken", "__tile": null, "defUid": 332, "realEditorValues": [] }
 							],
 							"__worldX": 1480,
 							"__worldY": -64
@@ -3096,14 +3090,14 @@
 							"defUid": 171,
 							"px": [952,400],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
 								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": [], "__tile": null, "defUid": 279, "realEditorValues": [] },
-								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] }
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] },
+								{ "__identifier": "sprite", "__type": "String", "__value": "shield-chicken", "__tile": null, "defUid": 332, "realEditorValues": [] }
 							],
 							"__worldX": 1592,
 							"__worldY": -64
@@ -3121,14 +3115,14 @@
 							"defUid": 171,
 							"px": [984,400],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
 								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": [], "__tile": null, "defUid": 279, "realEditorValues": [] },
-								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] }
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] },
+								{ "__identifier": "sprite", "__type": "String", "__value": "shield-chicken", "__tile": null, "defUid": 332, "realEditorValues": [] }
 							],
 							"__worldX": 1624,
 							"__worldY": -64
@@ -3146,14 +3140,14 @@
 							"defUid": 171,
 							"px": [792,400],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
 								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": [], "__tile": null, "defUid": 279, "realEditorValues": [] },
-								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] }
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] },
+								{ "__identifier": "sprite", "__type": "String", "__value": "shield-chicken", "__tile": null, "defUid": 332, "realEditorValues": [] }
 							],
 							"__worldX": 1432,
 							"__worldY": -64
@@ -3171,14 +3165,14 @@
 							"defUid": 171,
 							"px": [1016,400],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
 								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": [], "__tile": null, "defUid": 279, "realEditorValues": [] },
-								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] }
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] },
+								{ "__identifier": "sprite", "__type": "String", "__value": "shield-chicken", "__tile": null, "defUid": 332, "realEditorValues": [] }
 							],
 							"__worldX": 1656,
 							"__worldY": -64
@@ -3196,14 +3190,14 @@
 							"defUid": 171,
 							"px": [1048,400],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
 								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": [], "__tile": null, "defUid": 279, "realEditorValues": [] },
-								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] }
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] },
+								{ "__identifier": "sprite", "__type": "String", "__value": "shield-chicken", "__tile": null, "defUid": 332, "realEditorValues": [] }
 							],
 							"__worldX": 1688,
 							"__worldY": -64
@@ -3221,14 +3215,14 @@
 							"defUid": 171,
 							"px": [1064,400],
 							"fieldInstances": [
-								{ "__identifier": "aseprite", "__type": "String", "__value": "ases/shield-chicken.ase", "__tile": null, "defUid": 227, "realEditorValues": [] },
 								{ "__identifier": "health", "__type": "Int", "__value": 45, "__tile": null, "defUid": 174, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 5, "__tile": null, "defUid": 175, "realEditorValues": [] },
 								{ "__identifier": "def", "__type": "Int", "__value": 0, "__tile": null, "defUid": 176, "realEditorValues": [] },
 								{ "__identifier": "movespeed", "__type": "Int", "__value": 75, "__tile": null, "defUid": 196, "realEditorValues": [] },
 								{ "__identifier": "range_of_detect", "__type": "Float", "__value": 200, "__tile": null, "defUid": 199, "realEditorValues": [] },
 								{ "__identifier": "skills", "__type": "Array<LocalEnum.Skill>", "__value": [], "__tile": null, "defUid": 279, "realEditorValues": [] },
-								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] }
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 70, "__tile": null, "defUid": 325, "realEditorValues": [] },
+								{ "__identifier": "sprite", "__type": "String", "__value": "shield-chicken", "__tile": null, "defUid": 332, "realEditorValues": [] }
 							],
 							"__worldX": 1704,
 							"__worldY": -64
@@ -4101,7 +4095,8 @@
 								{ "__identifier": "health", "__type": "Int", "__value": 100, "__tile": null, "defUid": 179, "realEditorValues": [] },
 								{ "__identifier": "atk", "__type": "Int", "__value": 10, "__tile": null, "defUid": 180, "realEditorValues": [] },
 								{ "__identifier": "def", "__type": "Int", "__value": 5, "__tile": null, "defUid": 181, "realEditorValues": [] },
-								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 100, "__tile": null, "defUid": 327, "realEditorValues": [] }
+								{ "__identifier": "stun_resistance", "__type": "Int", "__value": 100, "__tile": null, "defUid": 327, "realEditorValues": [] },
+								{ "__identifier": "sprite", "__type": "String", "__value": "saraqael", "__tile": null, "defUid": 331, "realEditorValues": [] }
 							],
 							"__worldX": 88,
 							"__worldY": -64

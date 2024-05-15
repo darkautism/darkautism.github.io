@@ -1,0 +1,97 @@
+{ "frames": [
+   {
+    "filename": "bomb 0.sprite.ase",
+    "frame": { "x": 80, "y": 38, "w": 33, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 14, "y": 14, "w": 31, "h": 36 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 100
+   },
+   {
+    "filename": "bomb 1.sprite.ase",
+    "frame": { "x": 0, "y": 40, "w": 37, "h": 31 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 14, "y": 15, "w": 35, "h": 29 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 100
+   },
+   {
+    "filename": "bomb 2.sprite.ase",
+    "frame": { "x": 37, "y": 40, "w": 33, "h": 33 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 18, "w": 31, "h": 31 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 100
+   },
+   {
+    "filename": "bomb 3.sprite.ase",
+    "frame": { "x": 0, "y": 71, "w": 31, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 17, "y": 20, "w": 29, "h": 30 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 100
+   },
+   {
+    "filename": "bomb 4.sprite.ase",
+    "frame": { "x": 31, "y": 73, "w": 34, "h": 29 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 14, "y": 24, "w": 32, "h": 27 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 100
+   },
+   {
+    "filename": "bomb 5.sprite.ase",
+    "frame": { "x": 65, "y": 76, "w": 30, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 17, "y": 17, "w": 28, "h": 28 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 100
+   },
+   {
+    "filename": "bomb 6.sprite.ase",
+    "frame": { "x": 80, "y": 0, "w": 38, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 14, "y": 13, "w": 36, "h": 36 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 100
+   },
+   {
+    "filename": "bomb 7.sprite.ase",
+    "frame": { "x": 0, "y": 0, "w": 40, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 13, "y": 12, "w": 38, "h": 38 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 100
+   },
+   {
+    "filename": "bomb 8.sprite.ase",
+    "frame": { "x": 40, "y": 0, "w": 40, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 13, "y": 12, "w": 38, "h": 38 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.6-x64",
+  "image": "spritesheets/bomb.png",
+  "format": "RGBA8888",
+  "size": { "w": 118, "h": 106 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "bomb", "from": 0, "to": 8, "direction": "forward", "color": "#000000ff" }
+  ],
+  "slices": [
+  ]
+ }
+}

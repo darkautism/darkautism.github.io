@@ -1,0 +1,11 @@
+({
+    "spritesheets": Files (
+        paths: [
+            "spritesheets/saraqael.sprite.json",
+            "spritesheets/shield-chicken.sprite.json",
+            "spritesheets/gun-chicken.sprite.json",
+            "spritesheets/bomb.sprite.json",
+            "spritesheets/all_btn.sprite.json",
+        ],
+    ),
+})
